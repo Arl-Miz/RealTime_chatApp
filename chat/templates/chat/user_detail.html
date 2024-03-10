@@ -1,0 +1,8 @@
+{% extends 'core/base.html' %} {% block content %}
+<h1 cals="mb-6 text-2xl">{{ user.name}}</h1>
+<hr class="my-6" />
+<div class="mt-8">
+  <h2 class="mb-4 gext-lg">Rooms</h2>
+  {% include 'chat/partials/room_lists.html' %}
+</div>
+{% endblock %}
