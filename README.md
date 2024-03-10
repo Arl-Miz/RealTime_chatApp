@@ -36,7 +36,7 @@ git clone https://github.com/Arl-Miz/RealTime_chatApp.git
 cd RealTime_chatApp/
 pip install -r requirements.txt
 python manage.py migrate
-python manage.py runserver 8000
+python manage.py runserver 8080
 ```
 
 the go to this url on your browser:
